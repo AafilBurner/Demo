@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/demoIndex.html"
+status = 200
