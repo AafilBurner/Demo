@@ -1,10 +1,52 @@
-git init
-git status
-git add . 
-git status
-git commit -m "initial commit"
-git branch -M main
-git remote add origin https://github.com/AafilBurner/Demo.git
-git push -u origin main
+pre-requisites: 
+    make github acc
+    signup on netlify through github
+    do basic setup
+    install git bash for windows
+
+---Tutorial---
+step1: check url of this doc.
+step2: make sure your webpages are working locally.
+       create one single folder for you website project and make sure (index.html) is present directly inside it.
+step3: open git bash from the project folder (right-click, open cmd)  
+
+---Git Commands---
+    git init
+    git status
+    git add . 
+    git status
+    git commit -m "initial commit"
+    git branch -M main
+
+    !! check your individual github repository link for this next command: !!
+
+    git remote add origin https://github.com/AafilBurner/Demo.git
+
+    git push -u origin main
+
+
 (login authorization if required)
-check repository
+check repository for files
+
+---Using Netlify---
+    go to netlify page
+    go to sites tab
+    click import existing files
+    select github
+    give authorization access
+    select project
+    click deploy
+    wait for 2 minutes 
+    refreshhhh
+    click the deployed website link
+
+understand local changes 
+how to make changes on the server using git
+
+    git add . 
+    git status
+    git commit -m "Changed this particular thing!"
+    git branch -M main
+
+---end---
+
