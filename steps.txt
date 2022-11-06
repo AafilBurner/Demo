@@ -46,7 +46,7 @@ how to make changes on the server using git
     git add . 
     git status
     git commit -m "Changed this particular thing!"
-    git branch -M main
+    git push -u origin main
 
 ---end---
 
